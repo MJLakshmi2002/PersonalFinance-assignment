@@ -12,3 +12,4 @@ public interface FinanceEntryRepository extends JpaRepository<FinanceEntry, Long
     List<FinanceEntry> findByCategory(String category);
     List<FinanceEntry> findByDateBetween(LocalDate startDate, LocalDate endDate);
 }
+
